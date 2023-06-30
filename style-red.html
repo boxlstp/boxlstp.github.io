@@ -57,7 +57,7 @@
 		}
 		@font-face{
 			font-family:DS-Digital;
-			src:local('DS-Digital Bold'),local('DS-Digital-Bold'),url('DS-Digital-Bold.TTF') format('truetype');
+			src:local('DS-Digital Bold'),local('DS-Digital-Bold'),url('Technology.ttf') format('truetype');
 			font-weight:700;
 			font-style:normal
 		}
@@ -501,13 +501,11 @@
 			if(e < 0)
 				e = 0;
 			var i = e + "";
-			console.log(i);
 			//n = t.getMinutes() + "",
 			var n = Math.floor(t / (1000 * 60)) % 60;
 			if(n < 0)
 				n = 0;
 			n = n + "";
-			console.log(n);
 			//t = t.getSeconds() + "";
 			var t = Math.floor(t / 1000) % 60;
 			if(t < 0)
